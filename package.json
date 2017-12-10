@@ -1,0 +1,27 @@
+{
+  "name": "iota-cli-paper-wallet",
+  "version": "1.0.15",
+  "description": "CLI for generating IOTA paper wallets",
+  "main": "/bin/iota-cli-paper-wallet.js",
+  "keywords": [
+    "iota",
+    "tangle",
+    "CLI",
+    "paper",
+    "wallet"
+  ],
+  "preferGlobal": true,
+  "bin": "./src/iota-cli-paper-wallet.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/looploooop/iota-cli-paper-wallet"
+  },
+  "author": "looploooop",
+  "license": "MIT",
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "commander": "^2.12.2",
+    "iota.lib.js": "^0.4.3",
+    "qrcode-terminal": "^0.11.0"
+  }
+}
