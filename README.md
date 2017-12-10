@@ -7,9 +7,9 @@ CLI for generating IOTA paper wallets
 ![alt text](https://raw.githubusercontent.com/looploooop/iota-cli-paper-wallet/master/iota-cli-paper-wallet-preview.png)
 
 # Support
-OS X
-Linux
-Windows
+* OS X
+* Linux
+* Windows
 
 # Installation
 
