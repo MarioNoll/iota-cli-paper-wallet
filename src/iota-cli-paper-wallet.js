@@ -5,7 +5,6 @@ const args = require('commander')
 const path = require("path")
 const pkginfo = require(path.join(__dirname, "../package.json"))
 
-// console.log(pkginfo)
 const iota = new IOTA({
     "host": null,
     "port": null
