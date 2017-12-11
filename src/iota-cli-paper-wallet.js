@@ -24,7 +24,6 @@ const ADDRESS = require('./address')
 const qr = require('./qr')
 
 async function main() {
-    let version = pkginfo.version
     let iotaVersion = pkginfo.dependencies['iota.lib.js'].replace('^', '')
     console.log(`\n----------------- IOTA CLI Paper Wallet Generator v${pkginfo.version} (based on iota.lib.js v${iotaVersion}) -----------------\n`)
 
