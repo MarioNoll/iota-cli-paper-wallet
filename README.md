@@ -42,5 +42,31 @@ CLI for generating IOTA paper wallets
 
 This file can be printed from your browser or any editor which supports the fonts for the qr codes.
 
+# Secure offline paper wallet generation
+
+##### Prerequisites
+* Download latest Node.js binaries from https://nodejs.org/en/ or via wget with 
+
+  `wget https://nodejs.org/dist/v8.9.3/node-v8.9.3-linux-x64.tar.xz`
+
+* Download latest iota-cli-paper-wallet release bundle (e.g. iota-cli-paper-wallet-1.0.16.tgz) from https://github.com/looploooop/iota-cli-paper-wallet/releases
+
+* Copy both to an usb stick
+
+### [1. Run live ubuntu from USB or DVD](https://tutorials.ubuntu.com/tutorial/try-ubuntu-before-you-install)
+
+### 2. Install node js and iota-cli-paper-wallet from usb stick
+`sudo tar -xf node-v8.9.3-linux-x64.tar.xz --directory /usr/local --strip-components 1`
+
+`sudo npm i -g iota-cli-paper-wallet-1.0.16.tgz`
+
+#### 2.1 Optional verify the checksum of iota-cli-paper-wallet.tgz
+
+`sha256sum iota-cli-paper-wallet-1.0.16.tgz`
+
+Make sure the output equals the checksum provided with the [release bundle](https://github.com/looploooop/iota-cli-paper-wallet/releases)
+
+### 3. Run the following command and create a secure paper wallet :cop:
+`iota-cli-paper-wallet`
 
 ###### Donations welcome: ALHVWOLOAHRHNFIVMAPBA9NVMIOAFKMUGBKKIZQVZKHITMFSARGVHRNUDCUFNBJKPFTEBYUTMDWNQCTPXNFFXEWPJD
