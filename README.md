@@ -1,6 +1,8 @@
 # iota-cli-paper-wallet
 CLI for generating IOTA paper wallets
 
+[![NPM](https://nodei.co/npm/iota-cli-paper-wallet.png?compact=true)](https://nodei.co/npm/iota-cli-paper-wallet/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/looploooop/iota-cli-paper-wallet/master/LICENSE) [![Dependencies](https://david-dm.org/looploooop/iota-cli-paper-wallet.svg)](https://david-dm.org/looploooop/iota-cli-paper-wallet)
 
 # Preview
