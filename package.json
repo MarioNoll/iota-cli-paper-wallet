@@ -1,6 +1,6 @@
 {
   "name": "iota-cli-paper-wallet",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "CLI for generating IOTA paper wallets",
   "main": "/bin/iota-cli-paper-wallet.js",
   "keywords": [
@@ -20,8 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "child-process-promise": "^2.2.1",
-    "commander": "^2.12.2",
-    "iota.lib.js": "^0.4.3",
+    "commander": "^2.13.0",
+    "iota.lib.js": "^0.4.7",
     "qrcode-terminal": "^0.11.0"
   }
 }

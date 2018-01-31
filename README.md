@@ -71,4 +71,4 @@ Make sure the output equals the checksum provided with the [release bundle](http
 ### 3. Run the following command and create a secure paper wallet :cop:
 `iota-cli-paper-wallet`
 
-###### Donations welcome: ALHVWOLOAHRHNFIVMAPBA9NVMIOAFKMUGBKKIZQVZKHITMFSARGVHRNUDCUFNBJKPFTEBYUTMDWNQCTPXNFFXEWPJD
+###### Donations welcome: IPRAARVOXXVVOGZNPXDCDUNP9HM9WDHTETMQG9SALAZUKPMBUYYZFMRPTSCINXNPESAMGVXGYDXCAZMADQNPRISHVB
